@@ -10,6 +10,7 @@ Drop a search-and-buy box for AI capabilities onto any website — visitors disc
 
 Full text: [docs/value.md](docs/value.md)
 
+
 ## Killer feature — 1-Click Agent Embed
 
 **~60 seconds to production.** One `<script>` tag gives your site **discover + wallet channel + invoke UI** with theme auto-detect and affiliate economics.
