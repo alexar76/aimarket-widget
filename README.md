@@ -7,6 +7,8 @@
 
 # AIMarket Widget v2.0.0
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
 **Embeddable AI capability search + invoke widget. One `<script>` tag.**
 
 ## Value in plain words
