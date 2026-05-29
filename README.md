@@ -15,8 +15,6 @@
 
 Drop a search-and-buy box for AI capabilities onto any website — visitors discover and invoke marketplace skills without leaving your product.
 
-**Простыми словами:** Вставляете на любой сайт блок «найти и купить» AI-возможности — посетители находят и вызывают навыки маркетплейса, не уходя с вашего продукта.
-
 Full text: [docs/value.md](docs/value.md)
 
 
