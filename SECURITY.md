@@ -10,9 +10,7 @@ We acknowledge within 48 hours and share a fix timeline.
 
 ## Scope
 
-- `aimarket-widget` embed script (`widget.js`), themes, and demo pages
-- DOM XSS safety, hub v2 API calls, payment channel / affiliate headers
-- Unsafe `data-hub-url` or fetch targets
+- `aimarket-widget`
 
 ## Out of Scope
 
@@ -30,3 +28,4 @@ We acknowledge within 48 hours and share a fix timeline.
 ## Disclosure
 
 Coordinated disclosure preferred. We credit researchers in release notes when permitted.
+

@@ -11,13 +11,6 @@
 
 **Embeddable AI capability search + invoke widget. One `<script>` tag.**
 
-## Value in plain words
-
-Drop a search-and-buy box for AI capabilities onto any website — visitors discover and invoke marketplace skills without leaving your product.
-
-Full text: [docs/value.md](docs/value.md)
-
-
 ## Killer feature — 1-Click Agent Embed
 
 **~60 seconds to production.** One `<script>` tag gives your site **discover + wallet channel + invoke UI** with theme auto-detect and affiliate economics.
@@ -29,6 +22,8 @@ Full text: [docs/value.md](docs/value.md)
 | **Deep dive** | [docs/killer-feature-one-click-embed.md](docs/killer-feature-one-click-embed.md) · [Ecosystem killer features](../docs/killer-features.md) |
 
 ## Live Demo
+
+**[GitHub Pages demo](https://alexar76.github.io/aimarket-widget/)** — static embed demo (enable Pages → GitHub Actions in repo settings)
 
 **[modelmarket.dev/widget/demo](https://modelmarket.dev/widget/demo)** — interactive demo with all 6 themes
 
