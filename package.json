@@ -1,0 +1,34 @@
+{
+  "name": "@aimarket/widget",
+  "version": "0.1.1",
+  "description": "Embeddable AI capability search + invoke widget — one script tag, MIT, AIMarket Protocol v2",
+  "license": "MIT",
+  "main": "widget.js",
+  "files": [
+    "widget.js",
+    "themes.css",
+    "demo.html",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexar76/aimarket-widget.git"
+  },
+  "homepage": "https://alexar76.github.io/aimarket-widget/",
+  "keywords": [
+    "aimarket",
+    "widget",
+    "embed",
+    "ai-market",
+    "modelmarket"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node -e \"require('fs').accessSync('widget.js')\"",
+    "test": "node -e \"const fs=require('fs'); for (const f of ['widget.js','themes.css']) { fs.accessSync(f); if (fs.statSync(f).size < 100) process.exit(1); }\"",
+    "prepublishOnly": "npm test"
+  }
+}
