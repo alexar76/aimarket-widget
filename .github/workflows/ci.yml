@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-smoke:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Required static assets
+        run: |
+          test -f demo.html
+          test -f widget.js
+          test -f themes.css
+
+      - name: Widget script is non-empty
+        run: test "$(wc -c < widget.js | tr -d ' ')" -gt 100
+
+      - name: Smoke coverage badge
+        run: bash scripts/ci_static_badge.sh smoke ok
