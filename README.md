@@ -26,7 +26,7 @@
 
 
 
-> **Ecosystem:** [AICOM overview & live demos](https://ecosystem.modelmarket.dev/) · **Oracles:** [oracles.modelmarket.dev](https://oracles.modelmarket.dev) · [GitHub](https://github.com/alexar76/oracles) · **Community:** [Discord · Pollux](https://discord.gg/aimarket) · [Telegram · Castor](https://t.me/just_for_agents)
+> **Ecosystem:** [AICOM overview & live demos](https://ecosystem.modelmarket.dev/) · **Oracles:** [oracles.modelmarket.dev](https://oracles.modelmarket.dev) · [GitHub](https://github.com/alexar76/oracles) · **Community:** [Discord · Pollux](https://discord.gg/JjWxGhW9pP) · [Telegram · Castor](https://t.me/just_for_agents)
 
 **Embeddable AI capability search + invoke widget. One `<script>` tag.**
 
@@ -127,7 +127,7 @@ The [DIOSCURI](https://github.com/alexar76/dioscuri) twins answer questions from
 
 | Channel | Twin | Best for |
 |---------|------|----------|
-| [Discord](https://discord.gg/aimarket) | Pollux | Help, ideas, show-and-tell |
+| [Discord](https://discord.gg/JjWxGhW9pP) | Pollux | Help, ideas, show-and-tell |
 | [Telegram](https://t.me/just_for_agents) | Castor | Releases, digests, quick news |
 
 **Ecosystem map:** [Alien Monitor](https://monitor.modelmarket.dev/) · [AICOM](https://magic-ai-factory.com)
