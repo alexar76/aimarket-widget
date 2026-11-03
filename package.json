@@ -1,9 +1,10 @@
 {
   "name": "@aimarket/widget",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Embeddable AI capability search + invoke widget — one script tag, MIT, AIMarket Protocol v2",
   "license": "MIT",
   "main": "widget.js",
+  "style": "themes.css",
   "files": [
     "widget.js",
     "themes.css",
