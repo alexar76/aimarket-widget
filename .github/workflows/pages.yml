@@ -18,23 +18,15 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  # Upload and deploy in separate jobs so deploy-pages lists the artifact after
+  # the run has registered it (same-job lookup races under Actions load).
+  build:
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       pages: write
-      id-token: write
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
-
-      - name: Build static demo site
-        run: |
-          mkdir -p _site
-          cp demo.html _site/index.html
-          cp widget.js themes.css live-stream.html _site/ 2>/dev/null || true
 
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b  # v5.0.0
 
@@ -42,5 +34,15 @@ jobs:
         with:
           path: _site
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e  # v4.0.5
